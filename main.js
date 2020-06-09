@@ -1,20 +1,21 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+// way 1 use function
+//  const num = getInput(0);
 
- const num = getInput(0);
+//  function convert(){
+//    return num/5*9+32
+//  } 
 
-
- function convert(){
-   return num/5*9+32
- } 
-
- const result = convert();
- console.log(num + ' degree Celsius is ' + result + ' in Fahrenheit.')
-
+//  const result = convert();
+//  console.log(num + ' degree Celsius is ' + result + ' in Fahrenheit.')
 
 
-
+//way 2 no function:
+const num = getInput(0);
+const result = num/5*9+32;
+console.log(num + ' degree Celsius is ' + result + ' in Fahrenheit.')
 
 
 
