@@ -2,6 +2,19 @@
  * Your code here!
  ******************************************************************************/
 
+ const userInput = getInput(0);
+ const num = userInput;
+
+ function convert(){
+   return num/5*9+32
+ } 
+
+ const result = convert();
+ console.log(num + ' degree Celsius is ' + result + ' in Fahrenheit.')
+ console.log(result);
+
+
+
 
 
 
